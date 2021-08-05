@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 1s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.btn-start {
+  font-size: 20px ;
+  height: 50px ;
+  width: 100px ;
+  color: white ;
+  cursor: pointer ;
+  border-radius: 5px ;
+  border: white solid 2px ;
+  font-stretch: semi-expanded ;
+  background-color: transparent ;
+}
+
+.btn-start :hover {
+  color: grey ;
+}
+
+.btn-stop {
+  font-size: 20px ;
+  height: 50px ;
+  width: 100px ;
+  color: red ;
+  cursor: pointer ;
+  border-radius: 5px ;
+  border: white solid 2px ;
+  font-stretch: semi-expanded ;
+  background-color: transparent ;
+}
+
+.btn-stop :hover {
+  color: grey ;
+  /*border: grey solid 2px ;*/
+}
+
+
+.countdown-style {
+  font-size: 50px ;
+}
+
+.less-time-indicator span {
+  color: red ;
+  /*animation: resize 0.5s linear infinite ;*/
+}
+
+@keyframes resize {
+  from {
+      font-size: 50px ; 
+  }
+  to {
+      font-size: 60px ;
+  }
+}
+
+.sets-input {
+  outline: none ;
+  text-decoration: none ;
+  height: 25px ;
+  width: 40px ;
+  font-size: 20px ;
+  text-align: center ;
+  background-color: black ;
+  color: white ;
+  border: white solid 2px ;
+  border-radius: 5px ;
+  caret-color: transparent ;  /* to remove the blinking cursor in text */ 
+}
